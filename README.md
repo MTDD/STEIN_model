@@ -15,7 +15,7 @@ To run the model, download the scripts and open the file 'STEINwrapper.ipynb'. B
 
 All other variables can be adjusted in the file SetParams.ipynb, which contains the function defining the constant values.
 
-The model is run using the functions RunSimulationsStoch(), RunSimulationsEpisodic(), or RunSimulationsConstant(), depending on which style of erosion is desired. The corresponding files for these functions are RunSimulationsStoch.ipynb, RunSimulationsEpisodic.ipynb, and RunSimulationsConstant.ipynb. The syntax for each of these functions is defined at the top of the respective files.
+The model is run using the functions RunSimulationsStoch(), RunSimulationsEpisodic(), or RunSimulationsConstant(), depending on which style of erosion is desired and as demonstrated in the file STEINwrapper.ipynb. The corresponding files for these functions are RunSimulationsStoch.ipynb, RunSimulationsEpisodic.ipynb, and RunSimulationsConstant.ipynb. The syntax for each of these functions is defined at the top of the respective files, and demonstrated in the STEINwrapper.ipynb script.
 
 The scripts will generate a sequence of output files which are automatically saved using the save_fxn(). The model can take some time for each individual evaluation (up to several hours), depending on the integration time (total model time) input.
 
